@@ -3,23 +3,68 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 51;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0A9B27C229F97DDF0004236A /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A9B27C129F97DDF0004236A /* MapViewController.swift */; };
+		0A9CC79A29E9FC7C00028136 /* Home.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0A9CC79929E9FC7C00028136 /* Home.storyboard */; };
+		0A9CC7A029EA12FB00028136 /* Endpoinds.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A9CC79F29EA12FB00028136 /* Endpoinds.swift */; };
+		0A9CC7A229EA13A200028136 /* LoginRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A9CC7A129EA13A200028136 /* LoginRequest.swift */; };
+		0A9CC7A429EA13DF00028136 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A9CC7A329EA13DF00028136 /* User.swift */; };
+		0A9CC7A629EA149B00028136 /* LoginResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A9CC7A529EA149B00028136 /* LoginResponse.swift */; };
+		0A9CC7A829EA165100028136 /* RegisterRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A9CC7A729EA165100028136 /* RegisterRequest.swift */; };
+		0AA6E49B29E8A70500DAEF7D /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AA6E49A29E8A70500DAEF7D /* WelcomeViewController.swift */; };
+		0AA6E49D29E8A71D00DAEF7D /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AA6E49C29E8A71D00DAEF7D /* LoginViewController.swift */; };
+		0AA6E49F29E8A72C00DAEF7D /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AA6E49E29E8A72C00DAEF7D /* RegisterViewController.swift */; };
+		0AA7B24629F06E4D00843CDC /* AddTweetViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AA7B24529F06E4D00843CDC /* AddTweetViewController.swift */; };
+		0AA85FB729EDA1D5001E25CF /* ErrorResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AA85FB629EDA1D5001E25CF /* ErrorResponse.swift */; };
+		0AA85FB929EDA299001E25CF /* RegisterResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AA85FB829EDA299001E25CF /* RegisterResponse.swift */; };
+		0AA85FBB29EDAD30001E25CF /* Tweet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AA85FBA29EDAD30001E25CF /* Tweet.swift */; };
+		0AA85FBF29EDB01A001E25CF /* TweetRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AA85FBE29EDB01A001E25CF /* TweetRequest.swift */; };
+		0AA85FC129EDB652001E25CF /* DeleteTweetResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AA85FC029EDB652001E25CF /* DeleteTweetResponse.swift */; };
+		0AA85FC329EDC091001E25CF /* TweetLocation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AA85FC229EDC091001E25CF /* TweetLocation.swift */; };
+		0AA85FC529EDC393001E25CF /* TweetRequestLocation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AA85FC429EDC393001E25CF /* TweetRequestLocation.swift */; };
+		0AA8D95D29EF399000FBB889 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AA8D95C29EF399000FBB889 /* HomeViewController.swift */; };
+		0AA8D96129EF438000FBB889 /* TweetTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AA8D95F29EF438000FBB889 /* TweetTableViewCell.swift */; };
+		0AA8D96229EF438000FBB889 /* TweetTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0AA8D96029EF438000FBB889 /* TweetTableViewCell.xib */; };
+		0ABCB00B29E74CCB00FCD74C /* Welcome.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0ABCB00A29E74CCB00FCD74C /* Welcome.storyboard */; };
+		0AD67D1429F6EEEE00D85036 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0AD67D1329F6EEEE00D85036 /* GoogleService-Info.plist */; };
+		0AD67D1729F6F75300D85036 /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = 0AD67D1629F6F75300D85036 /* FirebaseAnalytics */; };
 		8424113729E4D1DC007041B5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8424113629E4D1DC007041B5 /* AppDelegate.swift */; };
 		8424113B29E4D1DC007041B5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8424113A29E4D1DC007041B5 /* ViewController.swift */; };
-		8424113E29E4D1DD007041B5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8424113C29E4D1DD007041B5 /* Main.storyboard */; };
 		8424114029E4D1DE007041B5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8424113F29E4D1DE007041B5 /* Assets.xcassets */; };
 		8424114329E4D1DE007041B5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8424114129E4D1DE007041B5 /* LaunchScreen.storyboard */; };
 		AB9F5CCF38476E876C665957 /* Pods_PlatziTweets.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9CDD76DAC79C85E6038BF0B4 /* Pods_PlatziTweets.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0A9B27C129F97DDF0004236A /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		0A9CC79929E9FC7C00028136 /* Home.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Home.storyboard; sourceTree = "<group>"; };
+		0A9CC79F29EA12FB00028136 /* Endpoinds.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Endpoinds.swift; sourceTree = "<group>"; };
+		0A9CC7A129EA13A200028136 /* LoginRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginRequest.swift; sourceTree = "<group>"; };
+		0A9CC7A329EA13DF00028136 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		0A9CC7A529EA149B00028136 /* LoginResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginResponse.swift; sourceTree = "<group>"; };
+		0A9CC7A729EA165100028136 /* RegisterRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterRequest.swift; sourceTree = "<group>"; };
+		0AA6E49A29E8A70500DAEF7D /* WelcomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
+		0AA6E49C29E8A71D00DAEF7D /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		0AA6E49E29E8A72C00DAEF7D /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		0AA7B24529F06E4D00843CDC /* AddTweetViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddTweetViewController.swift; sourceTree = "<group>"; };
+		0AA85FB629EDA1D5001E25CF /* ErrorResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorResponse.swift; sourceTree = "<group>"; };
+		0AA85FB829EDA299001E25CF /* RegisterResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterResponse.swift; sourceTree = "<group>"; };
+		0AA85FBA29EDAD30001E25CF /* Tweet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tweet.swift; sourceTree = "<group>"; };
+		0AA85FBE29EDB01A001E25CF /* TweetRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TweetRequest.swift; sourceTree = "<group>"; };
+		0AA85FC029EDB652001E25CF /* DeleteTweetResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeleteTweetResponse.swift; sourceTree = "<group>"; };
+		0AA85FC229EDC091001E25CF /* TweetLocation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TweetLocation.swift; sourceTree = "<group>"; };
+		0AA85FC429EDC393001E25CF /* TweetRequestLocation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TweetRequestLocation.swift; sourceTree = "<group>"; };
+		0AA8D95C29EF399000FBB889 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		0AA8D95F29EF438000FBB889 /* TweetTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TweetTableViewCell.swift; sourceTree = "<group>"; };
+		0AA8D96029EF438000FBB889 /* TweetTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TweetTableViewCell.xib; sourceTree = "<group>"; };
+		0ABCB00A29E74CCB00FCD74C /* Welcome.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Welcome.storyboard; sourceTree = "<group>"; };
+		0AD67D1329F6EEEE00D85036 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		8424113329E4D1DC007041B5 /* PlatziTweets.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PlatziTweets.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8424113629E4D1DC007041B5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8424113A29E4D1DC007041B5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		8424113D29E4D1DD007041B5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8424113F29E4D1DE007041B5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8424114229E4D1DE007041B5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8424114429E4D1DE007041B5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -33,6 +78,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0AD67D1729F6F75300D85036 /* FirebaseAnalytics in Frameworks */,
 				AB9F5CCF38476E876C665957 /* Pods_PlatziTweets.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -40,6 +86,94 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0A9CC79829E9FC5900028136 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				0AA8D95E29EF434900FBB889 /* Cells */,
+				0A9CC79929E9FC7C00028136 /* Home.storyboard */,
+				0AA8D95C29EF399000FBB889 /* HomeViewController.swift */,
+				0AA7B24529F06E4D00843CDC /* AddTweetViewController.swift */,
+				0A9B27C129F97DDF0004236A /* MapViewController.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		0A9CC79B29EA0F9800028136 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				0A9CC79E29EA12C600028136 /* Requests */,
+				0A9CC79D29EA12B800028136 /* Responses */,
+				0A9CC79F29EA12FB00028136 /* Endpoinds.swift */,
+				0AA85FC229EDC091001E25CF /* TweetLocation.swift */,
+				0A9CC7A329EA13DF00028136 /* User.swift */,
+				0AA85FBA29EDAD30001E25CF /* Tweet.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		0A9CC79D29EA12B800028136 /* Responses */ = {
+			isa = PBXGroup;
+			children = (
+				0A9CC7A529EA149B00028136 /* LoginResponse.swift */,
+				0AA85FB629EDA1D5001E25CF /* ErrorResponse.swift */,
+				0AA85FB829EDA299001E25CF /* RegisterResponse.swift */,
+				0AA85FC029EDB652001E25CF /* DeleteTweetResponse.swift */,
+			);
+			path = Responses;
+			sourceTree = "<group>";
+		};
+		0A9CC79E29EA12C600028136 /* Requests */ = {
+			isa = PBXGroup;
+			children = (
+				0A9CC7A129EA13A200028136 /* LoginRequest.swift */,
+				0A9CC7A729EA165100028136 /* RegisterRequest.swift */,
+				0AA85FBE29EDB01A001E25CF /* TweetRequest.swift */,
+				0AA85FC429EDC393001E25CF /* TweetRequestLocation.swift */,
+			);
+			path = Requests;
+			sourceTree = "<group>";
+		};
+		0AA8D95E29EF434900FBB889 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				0AA8D95F29EF438000FBB889 /* TweetTableViewCell.swift */,
+				0AA8D96029EF438000FBB889 /* TweetTableViewCell.xib */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		0ABCB00629E74B3700FCD74C /* Commons */ = {
+			isa = PBXGroup;
+			children = (
+				0A9CC79B29EA0F9800028136 /* Models */,
+				8424113629E4D1DC007041B5 /* AppDelegate.swift */,
+				8424113A29E4D1DC007041B5 /* ViewController.swift */,
+				8424113F29E4D1DE007041B5 /* Assets.xcassets */,
+				8424114129E4D1DE007041B5 /* LaunchScreen.storyboard */,
+			);
+			path = Commons;
+			sourceTree = "<group>";
+		};
+		0ABCB00729E74B5500FCD74C /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				0A9CC79829E9FC5900028136 /* Home */,
+				0ABCB00829E74B9900FCD74C /* Welcome */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		0ABCB00829E74B9900FCD74C /* Welcome */ = {
+			isa = PBXGroup;
+			children = (
+				0ABCB00A29E74CCB00FCD74C /* Welcome.storyboard */,
+				0AA6E49A29E8A70500DAEF7D /* WelcomeViewController.swift */,
+				0AA6E49C29E8A71D00DAEF7D /* LoginViewController.swift */,
+				0AA6E49E29E8A72C00DAEF7D /* RegisterViewController.swift */,
+			);
+			path = Welcome;
+			sourceTree = "<group>";
+		};
 		2D29E16F47CB6E27F69C81F4 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -78,12 +212,10 @@
 		8424113529E4D1DC007041B5 /* PlatziTweets */ = {
 			isa = PBXGroup;
 			children = (
-				8424113629E4D1DC007041B5 /* AppDelegate.swift */,
-				8424113A29E4D1DC007041B5 /* ViewController.swift */,
-				8424113C29E4D1DD007041B5 /* Main.storyboard */,
-				8424113F29E4D1DE007041B5 /* Assets.xcassets */,
-				8424114129E4D1DE007041B5 /* LaunchScreen.storyboard */,
+				0ABCB00729E74B5500FCD74C /* Modules */,
+				0ABCB00629E74B3700FCD74C /* Commons */,
 				8424114429E4D1DE007041B5 /* Info.plist */,
+				0AD67D1329F6EEEE00D85036 /* GoogleService-Info.plist */,
 			);
 			path = PlatziTweets;
 			sourceTree = "<group>";
@@ -106,6 +238,9 @@
 			dependencies = (
 			);
 			name = PlatziTweets;
+			packageProductDependencies = (
+				0AD67D1629F6F75300D85036 /* FirebaseAnalytics */,
+			);
 			productName = PlatziTweets;
 			productReference = 8424113329E4D1DC007041B5 /* PlatziTweets.app */;
 			productType = "com.apple.product-type.application";
@@ -117,7 +252,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1200;
-				LastUpgradeCheck = 1200;
+				LastUpgradeCheck = 1420;
 				TargetAttributes = {
 					8424113229E4D1DC007041B5 = {
 						CreatedOnToolsVersion = 12.0.1;
@@ -133,6 +268,9 @@
 				Base,
 			);
 			mainGroup = 8424112A29E4D1DC007041B5;
+			packageReferences = (
+				0AD67D1529F6F75300D85036 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
 			productRefGroup = 8424113429E4D1DC007041B5 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -147,9 +285,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0AA8D96229EF438000FBB889 /* TweetTableViewCell.xib in Resources */,
 				8424114329E4D1DE007041B5 /* LaunchScreen.storyboard in Resources */,
 				8424114029E4D1DE007041B5 /* Assets.xcassets in Resources */,
-				8424113E29E4D1DD007041B5 /* Main.storyboard in Resources */,
+				0ABCB00B29E74CCB00FCD74C /* Welcome.storyboard in Resources */,
+				0A9CC79A29E9FC7C00028136 /* Home.storyboard in Resources */,
+				0AD67D1429F6EEEE00D85036 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -202,7 +343,26 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0AA85FC329EDC091001E25CF /* TweetLocation.swift in Sources */,
+				0AA6E49D29E8A71D00DAEF7D /* LoginViewController.swift in Sources */,
+				0AA6E49F29E8A72C00DAEF7D /* RegisterViewController.swift in Sources */,
+				0AA85FB729EDA1D5001E25CF /* ErrorResponse.swift in Sources */,
+				0A9CC7A829EA165100028136 /* RegisterRequest.swift in Sources */,
+				0AA8D96129EF438000FBB889 /* TweetTableViewCell.swift in Sources */,
+				0AA8D95D29EF399000FBB889 /* HomeViewController.swift in Sources */,
+				0A9CC7A629EA149B00028136 /* LoginResponse.swift in Sources */,
+				0AA85FBB29EDAD30001E25CF /* Tweet.swift in Sources */,
+				0AA85FC529EDC393001E25CF /* TweetRequestLocation.swift in Sources */,
+				0AA6E49B29E8A70500DAEF7D /* WelcomeViewController.swift in Sources */,
 				8424113B29E4D1DC007041B5 /* ViewController.swift in Sources */,
+				0AA7B24629F06E4D00843CDC /* AddTweetViewController.swift in Sources */,
+				0A9B27C229F97DDF0004236A /* MapViewController.swift in Sources */,
+				0A9CC7A429EA13DF00028136 /* User.swift in Sources */,
+				0A9CC7A029EA12FB00028136 /* Endpoinds.swift in Sources */,
+				0AA85FB929EDA299001E25CF /* RegisterResponse.swift in Sources */,
+				0AA85FBF29EDB01A001E25CF /* TweetRequest.swift in Sources */,
+				0A9CC7A229EA13A200028136 /* LoginRequest.swift in Sources */,
+				0AA85FC129EDB652001E25CF /* DeleteTweetResponse.swift in Sources */,
 				8424113729E4D1DC007041B5 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -210,14 +370,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		8424113C29E4D1DD007041B5 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				8424113D29E4D1DD007041B5 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		8424114129E4D1DE007041B5 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -352,13 +504,16 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = J849QQ9PD4;
 				INFOPLIST_FILE = PlatziTweets/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				INFOPLIST_KEY_CFBundleDisplayName = PlatziTweets;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = easytrack.PlatziTweets;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
@@ -373,13 +528,16 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = J849QQ9PD4;
 				INFOPLIST_FILE = PlatziTweets/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				INFOPLIST_KEY_CFBundleDisplayName = PlatziTweets;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = easytrack.PlatziTweets;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
@@ -409,6 +567,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		0AD67D1529F6F75300D85036 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 9.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		0AD67D1629F6F75300D85036 /* FirebaseAnalytics */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 0AD67D1529F6F75300D85036 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalytics;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 8424112B29E4D1DC007041B5 /* Project object */;
 }
